@@ -53,7 +53,7 @@ public class GameManager : Singleton<GameManager>
     private void HandleGameOver()
     {
         StopCoroutine(spawnCoroutine);
-        Debug.Log("OYUN BİTTİ2");
+        
     }
 
 
